@@ -78,11 +78,7 @@ class Update extends Entity
 
     /**
      * Get update content
-     *
-     * @return \Longman\TelegramBot\Entities\CallbackQuery
-     *         |\Longman\TelegramBot\Entities\ChosenInlineResult
-     *         |\Longman\TelegramBot\Entities\InlineQuery
-     *         |\Longman\TelegramBot\Entities\Message
+     * @return \Longman\TelegramBot\Entities\CallbackQuery|\Longman\TelegramBot\Entities\ChosenInlineResult|\Longman\TelegramBot\Entities\InlineQuery|\Longman\TelegramBot\Entities\Message|\Longman\TelegramBot\Entities\EditedMessage|\Longman\TelegramBot\Entities\ChannelPost|\Longman\TelegramBot\Entities\EditedChannelPost|\Longman\TelegramBot\Entities\ChosenInlineResult|\Longman\TelegramBot\Entities\ShippingQuery|\Longman\TelegramBot\Entities\PreCheckoutQuery
      */
     public function getUpdateContent()
     {
